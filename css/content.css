@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+#content {
+  height: 960px;
+  width: 101.2%;
+  margin-left: -0.6%;
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.main-content {
+  height: 240px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.hotel-features {
+  height: 720px;
+  width: 100%;
+}
+
+.content-text {
+  position: relative;
+  float: left;
+  width: 59.6%;
+  height: 240px;
+  line-height: 1.8;
+}
+
+.logo {
+  position: relative;
+  float: right;
+  text-align: center;
+  width: 40%;
+  height: 240px;
+}
+
+.content-text h3 {
+  text-align: center;
+  color: #ecb54e;
+}
+
+.content-text p {
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 33.3%;
+  height: 360px;
+  text-align: center;
+}
+
+.feature:after{
+  content:'';
+    position: absolute;
+    margin-left: -16.65%;
+    margin-top: -6.3%;
+    width: 33.3%;
+    height: 360px;
+    background: rgba(0,0,0,0.1);
+}
+
+.feature:hover:after{
+    display:none;
+}
+
+.feature:hover p {
+  display: inline-block;
+  top: 0px;
+  line-height: 1.3;
+  color: #000;
+  font-weight: bold;
+  background-color: rgba(227, 227, 227, 0.5);
+}
+
+.feature:hover h3 {
+  display: inline-block;
+  top: 25px;
+  color: #ecb54e;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+
+.feature h3 {
+  position: relative;
+  font-size: 30px;
+  height: 25px;
+  color: #fff;
+  top: 35%;
+  z-index: 9;
+}
+
+.feature p {
+  display: none;
+}
+
+.hotel-features a:nth-child(1) .feature {
+  background-image: url(../img/spa.jpg);
+  background-size: cover;
+}
+
+.hotel-features a:nth-child(2) .feature {
+  background-image: url(../img/restaurant.jpg);
+  background-size: cover;
+}
+
+.hotel-features a:nth-child(3) .feature {
+  background-image: url(../img/weeding.jpg);
+  background-size: cover;
+}
+
+.hotel-features a:nth-child(4) .feature {
+  background-image: url(../img/conference.jpg);
+  background-size: cover;
+}
+
+.hotel-features a:nth-child(5) .feature {
+  background-image: url(../img/fitness.jpg);
+  background-size: cover;
+}
+
+.hotel-features a:nth-child(6) .feature {
+  background-image: url(../img/transfer.jpg);
+  background-size: cover;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}

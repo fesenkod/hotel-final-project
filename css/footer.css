@@ -1,0 +1,46 @@
+.footer {
+  width: 101.2%;
+  margin-left: -0.6%;
+  height: 230px;
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.footer-element:not(.rights) {
+  float: left;
+  display: inline-block;
+  width: 33.3%;
+  height: 110px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.rights {
+  float: left;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.first-foot {
+  font-size: 23px;
+}
+
+.second-foot {
+  font-size: 35px;
+}
+
+.second-foot a {
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.second-foot a:hover {
+  color: #252626
+}
+
+.third-foot {
+  line-height: 1.5;
+}

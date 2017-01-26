@@ -1,0 +1,146 @@
+html {
+  overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin-bottom:  0;
+    padding-bottom:  0;
+}
+
+#pagewrap {
+  width: 101.2%;
+  margin-left: -0.6%;
+}
+
+.settings {
+  margin-top: 48px;
+  font-family: "Arial", sans-serif;
+  height: 150px;
+  line-height: 1.5;
+  background-color: #fcf2b8;
+  width: 100%;
+}
+
+.sorting {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  margin-left: 2%;
+}
+
+.filters {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-right: 2%;
+}
+
+.filter {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.settings input {
+  margin-left: 15%;
+}
+
+.rooms-information {
+  width: 100%;
+  height: 100%;
+  font-family: "Arial", sans-serif;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+
+.reservationButton {
+  display: inline-block;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  color: white;
+  cursor: pointer;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916);
+}
+
+.reservationButton:hover { background: linear-gradient(#f5ae00, #f59500)}
+.reservationButton:active { background: linear-gradient(#f59500, #f5ae00)}
+
+.roomBlock {
+  width: 100%;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+
+.roomBlock img {
+  float: left;
+  width: 30%;
+  border-radius: 10px;
+  border: 2px solid #59677c;
+  margin-top: 1%;
+}
+
+.roomBlock .roomInfo {
+  width: 66%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.roomBlock .roomInfo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roomBlock .roomInfo ul li {
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.roomBlock .roomInfo ul li i {
+  margin-right: 4px;
+  color: green;
+}
+
+.roomBlock .roomInfo p:not(.descr) {
+  display: inline-block;
+  margin-right: 8%;
+}
+
+#pagination {
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+#pagination button {
+    background-color: #fff;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 3px;
+    border: 1px solid #ff9d35;
+}
+
+#pagination button:hover {
+  background-color: #ff9d35;
+}
+
+#pagination .active-pageButton {
+  background-color: #ff9d35;
+}

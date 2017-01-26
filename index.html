@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL NAME</title>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="https://use.fontawesome.com/8d4b3d10b5.js"></script>
+    <script src="js/slider.js"></script>
+  </head>
+
+  <body>
+
+    <div id="pagewrap">
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li>
+                  <a href="rooms.html">НОМЕРА</a>
+                </li>
+                <li>
+                  <a href="services.html">УСЛУГИ</a>
+                  <ul class="submenu">
+                    <li><a href="services.html#spa">СПА</a></li>
+                    <li><a href="services.html#restaurant">РЕСТОРАН</a></li>
+                    <li><a href="services.html#weeding">СВАДЕБНЫЕ ПАКЕТЫ</a></li>
+                    <li><a href="services.html#business">КОНФЕРЕНЦ-ЗАЛ</a></li>
+                    <li><a href="services.html#transport">ТРАНСПОРТНЫЕ УСЛУГИ</a></li>
+                    <li><a href="services.html#fitness">ФИТНЕС-ЦЕНТР</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">О ГОСТИНИЦЕ</a>
+                </li>
+                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                <li><a href="gallery.html">ГАЛЕРЕЯ</a></li>
+            </ul>
+
+            <form id="searchForm" action="index.html" method="post">
+              <input type="search" name="search" value="" placeholder="Найти...">
+            </form>
+        </nav>
+
+        <article id="carousel">
+          <a href="#" class="leftButton" type="button" onclick="slider.left();"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+          <div id="image"><img src="" alt=""></div>
+          <a href="#" class="rightButton" type="button" onclick="slider.right();"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+
+        <div id="content">
+          <div class="main-content">
+            <div class="content-text">
+              <h3>MAURITIUS RESORT HOTEL - КАЧЕСТВО И СЕРВИС МИРОВОГО УРОВНЯ <br> СРЕДИ ПЕРВОЗДАННОЙ ПРИРОДЫ</h3>
+              <p>Вообразите себе страну, в которой рука об руку идут море и природа. Но страну не из давнего прошлого или же далеких краев.
+                 Страну Вечной Лазури. А теперь представьте себе отель. Отель с потрясающим оформлением, расположенный на лоне нетронутой
+                 природы и уносящий Вас за собой в мир грез. Называется он MAURITIUS RESORT HOTEL</p>
+            </div>
+            <div class="logo">
+              <img src="img/logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="hotel-features">
+
+            <a href="#">
+                <div class="feature">
+                <h3>СПА</h3>
+                <p>Отдохните от ежедневной суеты в спа-центре отеля Mauritius Resort Hotel.
+                  Выберете оздоровительные процедуры для лица и тела и окунитесь в мир гармонии.
+                  Расслабьтесь в сауне или во время сеанса массажа, поплавайте в бассейне.</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="feature">
+                <h3>РЕСТОРАН</h3>
+                <p>Начните свой день со свежеприготовленного завтрака, побалуйте себя эксклюзивными блюдами
+                  международной и традиционной мавриканской кухни, приготовленными исключительно из свежайших ингредиентов.
+                  В Mauritius Resort Hotel каждый гость найдет себе блюдо по душе!</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="feature">
+                <h3>СВАДЕБНЫЕ ПАКЕТЫ</h3>
+                <p>Свадьба ― это, без сомнения, один из самых волнительных и волшебных дней в жизни каждой любящей пары.
+                  Доверьте свое торжество высококвалифицированному персоналу отеля Mauritius Resort Hotel.</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="feature">
+                <h3>БИЗНЕС</h3>
+                <p>Mauritius Resort Hotel является идеальным местом для деловых встреч и мероприятий и предлагает к вашим услугам
+                  5 конференц-залов и Большой зал для торжеств со встроенным экраном, проектором и звуковой системой.</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="feature">
+                <h3>ФИТНЕС</h3>
+                <p>Прекрасно оборудованный фитнес-центр отеля Mauritius Resort Hotel поможет поддержать хорошую физическую форму. </p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="feature">
+                <h3>КАК ДОБРАТЬСЯ</h3>
+                <p>В отеле Mauritius Resort Hotel предлагается частный трансфер из аэропорта в гостиницу.</p>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer">
+          <div class="footer-element first-foot">
+            <p>#VISITMAURITIUS</p>
+          </div>
+
+          <div class="footer-element second-foot">
+            <a href="http://www.facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="http://www.vk.com"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="http://www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+            <a href="http://www.youtube.com"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            <a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="footer-element third-foot">
+            <p><i>WEBSITE BY</i> <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              <strong>Dmitrij Fesenko</strong></p>
+          </div>
+
+          <hr>
+
+          <div class="rights">
+            <p>© 2017 The Mauritius Hotel Company, L.L.C. All rights reserved.</p>
+          </div>
+
+
+        </div>
+
+    </div>
+
+  </body>
+
+  <script src="js/navbar.js"></script>
+
+</html>
