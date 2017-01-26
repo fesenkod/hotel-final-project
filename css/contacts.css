@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin-bottom:  0;
+    padding-bottom:  0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.contact-content {
+  height: 650px;
+  width: 101.2%;
+  margin-left: -0.6%;
+}
+
+.map {
+  display: inline-block;
+  width: 50%;
+  margin-top: 90px;
+  float: right;
+  height: 500px;
+}
+
+.main-information {
+  float: left;
+  padding-left: 2%;
+  margin-top: 50px;
+  font-family: "Arial", sans-serif;
+  width: 47%;
+}
+
+.main-information h3 {
+    text-decoration: underline;
+}
+
+.main-information p, .main-information h4 {
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+.main-information a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  margin-left: 10%;
+}
+
+.main-information a:first-of-type i {
+  font-size: 17px;
+}
+
+.main-information a span {
+  margin-left: 2%;
+}
+
+#mail {
+  color: blue;
+}
+
+#mail:hover {
+  text-decoration: underline;
+}
+
+.detailed-location {
+  float: left;
+  padding-left: 2%;
+  font-family: "Arial", sans-serif;
+  width: 47%;
+  margin-top: 20px;
+}
+
+.detailed-location h3 {
+    text-decoration: underline;
+}
+
+.detailed-location p, .detailed-location h4, .detailed-location ul {
+  margin-left: 10%;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.detailed-location ul {
+  margin-top: -15px;
+}

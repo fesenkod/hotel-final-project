@@ -1,0 +1,39 @@
+html {
+  overflow-x: hidden;
+}
+
+#carousel {
+  width: 100%;
+  position: relative;
+  height: 600px;
+  top: 0.8%;
+}
+
+#carousel a {
+  display: inline-block;
+  width: 2%;
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  top: -50%;
+  z-index: 2;
+}
+
+#carousel a:hover {
+  color: #fff;
+}
+
+#image {
+  width: 95%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+#image img {
+  width: 106.6%;
+  height: 100%;
+  left: -3.1%;
+  position: relative;
+}

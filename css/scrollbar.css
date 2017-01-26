@@ -1,0 +1,24 @@
+/* webkit */
+
+::-webkit-scrollbar { width: 9px; }
+
+::-webkit-scrollbar-button {  background-color: #eaeaea; border: 1px solid #666; border-radius: 5px;}
+
+::-webkit-scrollbar-track-piece { background-color: #fff;}
+
+::-webkit-scrollbar-thumb { height: 50px; background-color: #eaeaea; border-radius: 5px; border: 1px solid #666;}
+
+::-webkit-scrollbar-corner { background-color: #999;}}
+
+::-webkit-resizer { background-color: #666;}
+
+
+/* ie */
+body {
+  scrollbar-base-color: #eaeaea;
+  scrollbar-3dlight-color: #eaeaea;
+  scrollbar-highlight-color: #eaeaea;
+  scrollbar-track-color: #fff;
+  scrollbar-shadow-color: #eaeaea;
+  scrollbar-dark-shadow-color: #eaeaea;
+}
