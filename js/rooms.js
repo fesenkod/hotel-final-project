@@ -83,7 +83,7 @@ function paginate() {
     target.setAttribute('class', 'active-pageButton');
 
 
-    var forClassDel = document.getElementsByClassName('rooms-information')[0].getElementsByClassName("visible")[0]
+    var forClassDel = document.getElementsByClassName('rooms-information')[0].getElementsByClassName("visible")[0];
     forClassDel.removeAttribute('class');
     forClassDel.setAttribute('class', 'invisible');
 
