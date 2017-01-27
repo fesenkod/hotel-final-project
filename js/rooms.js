@@ -1,14 +1,6 @@
 // generation of rooms content
 
 var filterSet = [];
-var roomsObject = localStorage.getItem('roomsObject');
-
-if (!roomsObject) {
-    localStorage.setItem('roomsObject', JSON.stringify(roomsList));
-}
-
-roomsList = JSON.parse(localStorage.getItem('roomsObject'));
-
 
 function roomsGenerator(roomsList, filtparams) {
   var result = "<div id='page1' class='visible' >";
@@ -39,7 +31,16 @@ function roomsGenerator(roomsList, filtparams) {
     "<p class='roomPrice'>Цена: " + roomsList[i].price + "</p>" +
     "<p>Занято: " + roomsList[i].numBusy + "</p>" +
     "<p>Свободно: " + roomsList[i].numFree + "</p> </div>" +
-    "<button type='submit' class='reservationButton'>БРОНИРОВАТЬ</button>" + "</div>";
+    "<button type='submit' class='reservationButton'>БРОНИРОВАТЬ</button>" +
+    "<div class='hide'> <form> <div class='form-group'> <label for='name'>Имя</label>" +
+    "<input type='text' id='name' name='name'></div>"  +
+    "<div class='form-group'> <label for='phone'>Телефон</label>" +
+    "<input type='text' id='phone' name='phone'></div>" +
+    "<div class='form-group'> <label for='mail'>E-mail</label>" +
+    "<input type='text' id='mail' name='mail'></div>" +
+    "<div class='form-group'> <label for='rooms'>Количество:</label>" +
+    "<input type='number' id='rooms' name='rooms' min=1>" +
+    "</div> <div class='form-group'> <input type='submit' value='Оформить заказ!'> </div> </form>  </div>"  + "</div>";
 
     // set proper IDs for further pagination
     if ((fullIteration)%5 == 0 && (i+1) != roomsList.length) {
@@ -124,9 +125,27 @@ function filtrate() {
   });
 }
 
+function reservate() {
+  document.getElementsByClassName('rooms-information')[0].addEventListener('click', function(event) {
+    if (event.target.className != 'reservationButton') return;
+    var bookform = event.target.nextElementSibling;
+    if (bookform.className == 'booking') {
+      event.target.nextElementSibling.removeAttribute('booking');
+      event.target.nextElementSibling.setAttribute('class', 'hide');
+    }
+    else {
+      event.target.nextElementSibling.removeAttribute('hide');
+      event.target.nextElementSibling.setAttribute('class', 'booking');
+    };
+  });
+};
+
+
+
 window.onload = function() {
 	writeHTML();
   paginate();
+  reservate();
   sorting();
   filtrate();
 };

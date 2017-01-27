@@ -60,6 +60,10 @@ html, body {
   display: none;
 }
 
+.hide {
+  display: none;
+}
+
 .reservationButton {
   display: inline-block;
   margin-left: 1%;
@@ -143,4 +147,21 @@ html, body {
 
 #pagination .active-pageButton {
   background-color: #ff9d35;
+}
+
+.booking {
+  display: block;
+}
+
+.booking .form-group {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin-top: 0.5%;
+}
+
+.booking .form-group label {
+  width: 100%;
+  display: block;
+
 }
