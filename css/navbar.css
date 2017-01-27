@@ -96,3 +96,79 @@ input[type="search"]::-webkit-search-cancel-button {
 #main-nav ul > li:hover > ul.submenu li {
   padding-top: 8px;
 }
+
+
+
+@media screen and (max-width: 650px) {
+  #main-nav {
+    height: 20px;
+  }
+
+  #main-nav ul li {
+    font-size: 12px;
+    margin-right: 0.5%;
+    padding-left:  2px;
+    padding-right: 2px;
+  }
+
+  #main-nav > ul > li:first-of-type {
+    font-size: 15px;
+    margin-right: 1px;;
+    margin-top: 10px;
+    border: none;
+  }
+
+  #main-nav > ul > li {
+    height: 35px;
+    border-right: 1px solid #000;
+    position: relative;
+  }
+
+  #main-nav ul > li:hover > ul.submenu {
+    top: 26px;
+    left: -2px;
+    font-size: 17px;
+    width: 150px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  #main-nav form{
+    display: inline-block;
+    float: right;
+    width: 10%;
+    border-radius: 2px;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-left: -5%;
+    border: 1px solid #000;
+  }
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 650px) {
+  #main-nav {
+    height: 25px;
+  }
+
+  #main-nav ul li {
+    font-size: 16px;
+    margin-right: 0;
+    padding-left:  3px;
+    padding-right: 3px;
+  }
+
+  #main-nav ul > li:hover > ul.submenu {
+    top: 26px;
+    left: -2px;
+    font-size: 17px;
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  #main-nav form{
+    width: 9%;
+    margin-top: 1%;
+  }
+}

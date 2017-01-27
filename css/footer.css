@@ -44,3 +44,47 @@
 .third-foot {
   line-height: 1.5;
 }
+
+
+@media screen and (max-width: 980px) and (min-width: 650px) {
+  .first-foot {
+    font-size: 20px;
+  }
+
+  .second-foot {
+    font-size: 28px;
+  }
+
+  .third-foot {
+    line-height: 1.3;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .first-foot {
+    font-size: 16px;
+  }
+
+  .second-foot {
+    font-size: 23px;
+  }
+
+  .third-foot {
+    line-height: 1.1;
+    font-size: 11px;
+  }
+
+  .rights {
+    height: 60px;
+  }
+
+  .rights p {
+    font-size: 14px;
+  }
+
+  .footer-element {
+    padding-top: 20px;
+  }
+
+}

@@ -37,3 +37,25 @@ html {
   left: -3.1%;
   position: relative;
 }
+
+@media screen and (max-width: 980px) and (min-width: 650px) {
+  #carousel {
+    height: 400px;
+  }
+
+  #carousel a {
+    width: 1%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #carousel {
+    height: 300px;
+  }
+
+  #carousel a {
+    width: 0.5%;
+    font-size: 15px;
+  }
+}
