@@ -58,19 +58,7 @@ body {
   text-align: center;
 }
 
-.feature:after{
-  content:'';
-    position: absolute;
-    margin-left: -16.65%;
-    margin-top: -6.3%;
-    width: 33.3%;
-    height: 360px;
-    background: rgba(0,0,0,0.1);
-}
 
-.feature:hover:after{
-    display:none;
-}
 
 .feature:hover p {
   display: inline-block;
